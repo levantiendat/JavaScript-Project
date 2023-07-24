@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTDOWN CLOCK</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <h1 class="center1">CLOCK SYSTEM</h1>
+    <div class="blue-line">
+        <button class="button1" id="localtime">LOCAL TIME</button>
+        <button class="button1" id="stopwatch">STOPWATCH</button>
+        <button class="button1" id="countdownclock">COUNTDOWN CLOCK</button>
+    </div>
+</head>
+<body >
+    <h1 id="time" class="center2" style="background-color: rgb(212, 233, 24);">00:00:00.00</h1>
+    
+    <div class="center1">
+        <input type="number" id="hour" style = "width :40px; font-size: 20px;" value = "0">
+        <h1>:</h1>
+        <input type="number" id="minute" style = "width :40px; font-size: 20px;" value = "0">
+        <h1>:</h1>
+        <input type="number" id="second" style = "width :40px; font-size: 20px;" value = "0">
+    </div>
+    <div class="center">
+        <button id="start" class="start-button">START</button>
+        <button id="stop" class="stop-button">STOP</button>
+        <button id="reset" class="reset-button">RESET</button>
+        <button id="settime" class="start-button">SET TIME</button>
+    </div>
+    <script src="./countdownclock.js"></script>
+</body>
+</html>
